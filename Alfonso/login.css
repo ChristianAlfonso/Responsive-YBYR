@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Quicksand:wght@500;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+span {
+    color: goldenrod;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(image/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    border-radius: 10px;
+    height: auto;
+    width: 30%;
+    padding: 20px 40px;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px 0px;
+    background-color: whitesmoke;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.inp {
+    display: block;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.inp:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#btn {
+    padding: 10px 40px;
+    margin: 10px;   
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: rgb(234, 234, 234) 0px 0px 0px 3px;
+}
+#btn:hover {
+    transition: .5s;
+    background-color: goldenrod;
+    padding: 10px 60px;
+    border-radius: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.acc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acc a:hover {
+    color: red;
+}

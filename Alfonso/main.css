@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: goldenrod;
+}
+
+
+/* HEADER */
+
+header {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: .3s;
+    font-size: 14px;
+}
+
+header nav ul li a:hover {
+    border: 3px solid goldenrod;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: goldenrod;
+    font-size: 18px;
+}
+
+header .side-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%
+}
+
+.hero {
+    background: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-child {
+    position: absolute;
+    color: silver;
+    bottom: 30%;
+    left: 10%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+/*HOME */
+
+.home-us {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-us .second-title {
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    color: white; 
+    font-weight: bold;
+}
+
+.home-us .second-title h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+
+
+.home-us .about-parent {
+    border: 1px solid blue;
+    padding: 15px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* SERVICES  */
+
+.service {
+    height: 100vh;
+    padding: 70px 150px; 
+    background-color: #ebebeb;    
+}
+
+.service .service-us {
+    height: 100vh;  
+}
+
+.service .service-us .service-title {
+    margin: 10px 0px;
+    display: flex;
+}
+
+.service .service-us h1 {
+    font-size: 50px;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.service .service-desc {
+    padding: 20px 0px;
+}
+
+.service .service-parent {
+    padding: 20px;
+    height: 58vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service .service-parent .service-child {
+    height: 200px;
+    width: 370px;
+    display: flex;
+    margin: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.service-child .service-child-left {
+    flex: 1;
+}
+
+.service-child .service-child-right {
+    flex: 2;
+    padding: 10px;
+    font-family: Poppins;
+}
+
+.service-child .service-child-right .icon-description {
+    margin: 15px 0px;
+}
+
+/*  PACKAGES */
+
+.fifth-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/pack-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.packages-left {
+    height: 70vh;
+    width: 23%;
+    margin: 0px 20px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.packages-right {
+    height: 70vh;
+    width: 23%;
+    margin: 0px 20px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.basic {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: goldenrod; 
+    color: aliceblue;
+}
+
+.basic2 {
+    text-align: center;
+    padding: 40px 20px;
+    color: aliceblue;
+    background-color: red;
+}
+
+.basic-left {
+        padding: 20px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.basic-right {
+    padding: 20px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px ;
+}
+
+.get {
+    text-align: center;
+}
+
+.get a {
+    padding: 15px;
+    background-color: #DA1D2A;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* PERSONAL TRAINER */
+
+.pt-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 140px;
+}
+
+.pt-parent {
+    width: 100%;
+    height: 80%;
+}
+
+.pt-title {
+    display: flex;
+}
+
+.pt-title h1 {
+    font-size: 45px;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.pt-child {
+    margin-top: 20px;
+    height: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pt-child > div {
+    width: 400px;
+    height: 450px;
+    margin: 0px 20px;
+
+}
+
+.pt-left {
+    background-image: url(image/pt2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30% 70% 70% 30% / 5% 30% 70% 95% ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.pt-center {
+    background-image: url(image/pt1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30% 70% 70% 30% / 5% 30% 70% 95% ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.pt-right {
+    background-image: url(image/pt3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30% 70% 70% 30% / 5% 30% 70% 95% ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+/* Equipments */
+
+.equipments {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 150px; 
+    background-color: #ebebeb;  
+    font-family: Roboto;
+}
+
+.equipments .equip-title {
+    display: flex;
+}
+
+.equipments h1 {
+    font-size: 50px;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+}
+
+.equip-parent {
+    height: 70vh;
+    display: flex;
+    margin: 20px 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.eqp-child1 {
+    flex: 1;
+}
+.child1-eqp {
+    height: 23.2vh;
+}
+
+
+.eqp-child2 {
+    flex: 2;
+}
+
+.eqp-child3 {
+    flex: 1;
+}
+.child2-eqp {
+    height: 34.9vh;
+}
+
+
+    /* About Us */
+
+.fourth-about {
+    height: 110vh;
+    padding: 50px 150px;
+    font-family: Roboto;
+
+}
+
+.fourth-about .third-about-us {
+    padding: 40px 0px;
+    font-size: 25px;
+    display: flex;
+}
+
+.fourth-about .third-about-us h1 {
+    border: 3px solid goldenrod;
+    padding: 5px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.third-content {
+    height: 60vh;
+    display: flex;
+}
+
+.third-content .left-content {
+    flex: 1;
+}
+
+.third-content .left-content img {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.third-content .right-content {
+    flex: 1;
+}
+
+.third-content .right-content .third-title {
+    padding: 30px 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.third-content .right-content .third-title-description {
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+
+/* Contact Us */
+
+.sixth-container {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 150px; 
+    background-color: #ebebeb;    
+}
+
+.six-title {
+    display: flex;
+}
+
+
+.six-title h1 {
+    font-size: 50px;
+    border: 3px solid goldenrod;
+    padding: 5px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.six-content {
+    height: 70vh;
+    display: flex;
+}
+
+.six-content .six-left-content {
+    flex: 1;
+    padding: 60px 30px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+.six-content .six-right-content {
+    flex: 2;
+    padding: 50px 50px;
+}
+.six-right-content .inputs {
+    margin: 10px 0px;
+}
+
+.six-right-content .submit {
+    margin: 8px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: #ebebeb;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#title-logo {
+    width: 200px;
+    border-radius: 20px;
+    margin-left:    -70px;
+    cursor: pointer;
+}
+
+#title-logo-foot {
+    width: 180px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: -70px;
+
+}
+
+#description {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#contact-us {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 15px;
+    border: 1px solid goldenrod;
+    padding: 20px;
+}
+
+
+#contact-us:hover {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+
+/* Icons */
+
+#first-icon {
+    background-image: url(image/healtTips-icon.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#second-icon {
+    background-image: url(image/training-icon.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#third-icon {
+    background-image: url(image/yoga.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fourth-icon {
+    background-image: url(image/personal-trainer.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fifth-icon {
+    background-image: url(image/food.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sixth-icon {
+    background-image: url(image/equip.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#icons-fonts {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 10px;
+}
+#icon-fonts2 {
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+/* Inputs */
+
+#userName {
+    width: 100%;
+    padding: 10px;
+}
+
+#userEmail {
+    width: 100%;
+    padding: 10px;
+
+}
+
+#userMessage {
+    padding: 10px 10px;
+    width: 100%;
+    resize: none;
+}
+
+#btn {
+    padding: 15px 30px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+#side-icon {
+    width: 30px;
+}
+#side-icon2 {
+    width: 25px;
+}
+#side-icon3 {
+    width: 35px;
+}
+
+#side-icon:hover {
+    width: 50px;
+    border: 3px solid goldenrod;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+
+}
+#side-icon2:hover {
+    width: 45px;
+    border: 3px solid goldenrod;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+
+}
+#side-icon3:hover {
+    width: 55px;
+    border: 3px solid goldenrod;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+}
+
+#Personal-trainers {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Fuzzy Bubbles;
+    padding: 25px 20px;
+    
+}
+
+/* Registration */
+
+.reg-container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.reg-container-center {
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+}
+
+.reg-container .title-reg {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    font-family: Quicksand;
+}
+
+.reg-container .input-reg {
+    padding: 20px;
+}
+
+
+#inp {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin: 5px 0px;
+}
+
+
+/* Equipments */ 
+
+#leftEquip1 {
+    background-image: url(image/equip2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    transition: all .5s ease-in-out;
+}
+#leftEquip1:hover {
+    transform: scale(1.3);
+    cursor:grab;
+}
+
+#leftEquip2 {
+    background-image: url(image/equip5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    transition: all .5s ease-in-out;
+}
+#leftEquip2:hover {
+    transform: scale(1.3);
+    cursor:grab;
+}
+
+#leftEquip3 {
+    background-image: url(image/equip4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    transition: all .5s ease-in-out;
+}
+#leftEquip3:hover {
+    transform: scale(1.3);
+    cursor:grab;
+}
+
+#middle-eqp {
+    background-image: url(image/equip1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    transition: all .5s ease-in-out;
+}
+#middle-eqp:hover {
+    transform: scale(1.2);
+    cursor:grab;
+}
+
+#rightEquip4 {
+    background-image: url(image/equip7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    transition: all .5s ease-in-out;
+}
+#rightEquip4:hover{
+    transform: scale(1.3);
+    cursor:grab;
+}
+
+#rightEquip5 {
+    background-image: url(image/equip8.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    transition: all .5s ease-in-out; 
+}
+#rightEquip5:hover {
+    transform: scale(1.2);
+    cursor:grab;
+}
+
+
+.logout a{
+    text-decoration: none;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    border-radius: 20px;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.logout a:hover {
+    transition: .5s;
+    padding: 10px 30px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
